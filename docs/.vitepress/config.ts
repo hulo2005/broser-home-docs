@@ -4,24 +4,24 @@ export default defineConfig({
   description: 'Vite & Vue powered static site generator.',
   locales: {
     root: {
+      label: '简体中文',
+      lang: 'cn-ZH',
+      title: '调查浏览器',
+    },
+    en: {
       label: 'English',
       lang: 'en',
+      link: '/en/',
       title: 'Surveybrowser',
-    },
-    zh: {
-      label: '简体中文',
-      lang: 'cn-ZH', // optional, will be added  as `lang` attribute on `html` tag
-      link: '/zh/', // default /fr/ -- shows on navbar translations menu, can be external
-      title: '调查浏览器',
-
-      // other locale specific properties...
     },
   },
 
   themeConfig: {
     logo: '/icon/logo.png',
+    outlineTitle: '页面导航',
     nav: [
-      { text: 'Example', link: '/example' },
+      { text: '文档', link: '/docs' },
+      { text: '下载', link: '/docs/install'}
 
       // {
       //   text: 'Dropdown Menu',
@@ -35,15 +35,16 @@ export default defineConfig({
       // ...
     ],
     footer: {
-      message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2019-present Evan You',
+      message: '合肥绍禹计算机科技有限公司',
+      copyright: 'Copyright © 2022-2024 备案号：皖ICP备2024059545号',
     },
 
     sidebar: [
       {
-        // text: 'Guide',
+         text: '介绍',
         items: [
-          { text: 'Example', link: '/example' },
+          { text: '什么是Surveybrowser?', link: '/docs' },
+          { text: '下载安装', link: '/docs/install' }
           // ...
         ],
       },

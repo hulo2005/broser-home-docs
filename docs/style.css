@@ -1,0 +1,58 @@
+.download-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .download-card {
+    width: 600px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #202126;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    margin: 10px;
+    box-sizing: border-box; /* 确保 padding 包含在宽度内 */
+  }
+
+  .download-card a {
+    font-weight: 500;
+    color: #dfdfd6;
+    text-decoration: solid;
+    text-underline-offset: 2px;
+    transition: color 0.25s, opacity 0.25s;
+  }
+  
+  /* 媒体查询 */
+  @media (max-width: 1024px) {
+    .download-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .download-card {
+      width: 80%; /* 在较小屏幕上宽度适应为80% */
+      margin: 10px auto; /* 居中显示 */
+    }
+  }
+  
+  .download-card img {
+    width: 50px;
+    margin: 10px 0;
+  }
+  
+  .download-card h2, .download-card p, .download-button {
+    width: 100%; /* 确保元素宽度填充容器 */
+    text-align: center;
+  }
+  
+  .download-button {
+    background-color: #3a3a3a;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
