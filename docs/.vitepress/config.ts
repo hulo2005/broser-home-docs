@@ -48,6 +48,12 @@ export default defineConfig({
           // ...
         ],
       },
+       {
+        text:'教程',
+        items:[
+          {text:'代理模板', link:'/docs/proxy'}
+        ]
+       }
     ],
   },
 });
