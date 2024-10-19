@@ -51,7 +51,9 @@ export default defineConfig({
        {
         text:'教程',
         items:[
-          {text:'代理模板', link:'/docs/proxy'}
+          {text:'代理模板', link:'/docs/proxy'},
+          {text:'创建PC端浏览器', link: '/docs/browser/pc'},
+          {text:'创建安卓浏览器', link: '/docs/browser/android'}
         ]
        }
     ],
