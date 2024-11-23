@@ -1,6 +1,17 @@
 import { defineConfig } from 'vitepress';
 // refer https://vitepress.dev/reference/site-config for details
 export default defineConfig({
+  transformHead(context) {
+    return [
+      [
+        'script',
+        {
+          src: 'https://w1022.ttkefu.com/k/?fid=2H7EBD1',
+          charset: 'utf-8',
+        },
+      ],
+    ]
+  },
   description: 'Vite & Vue powered static site generator.',
   locales: {
     root: {

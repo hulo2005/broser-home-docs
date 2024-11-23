@@ -33,6 +33,3 @@ features:
     details: 可加入多个团队空间，随时随地切换团队。可使用由团队创建者所开放的共享服务，包括IP检测及IP服务等
 
 ---
-
-<script src='https://w1022.ttkefu.com/k/?fid=2H7EBD1' charset=utf-8></script>
-<div style='display:none;'> <a href='http://www.ttkefu.com' >在线客服系统</a ></div>
