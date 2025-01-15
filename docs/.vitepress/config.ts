@@ -12,7 +12,7 @@ export default defineConfig({
       ],
     ]
   },
-  description: 'Vite & Vue powered static site generator.',
+  description: '专注于调查测试,安检以及ip质量筛选为一体的指纹浏览器',
   locales: {
     root: {
       label: '简体中文',
@@ -47,7 +47,7 @@ export default defineConfig({
     ],
     footer: {
       message: '合肥绍禹计算机科技有限公司',
-      copyright: 'Copyright © 2022-2024 备案号：皖ICP备2024059545号',
+      copyright: 'Copyright © 2022-2025 备案号：皖ICP备2024059545号',
     },
 
     sidebar: [

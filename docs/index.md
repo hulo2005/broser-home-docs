@@ -24,7 +24,7 @@ features:
     details: 每次创建浏览器软件会随机分配较新且流行的内核，从而使多浏览器窗口模拟真实人群使用者
   - icon:
       dark: /ip.svg
-      light: /light-feature-icon.svg
+      light: /ip.svg
     title: IP质量检测
     details: 你可以使用此服务，每次启动浏览器之前会轮询高质量IP，自动过滤掉被识别的代理IP，滥用IP，高风险欺诈IP等
   - icon: 

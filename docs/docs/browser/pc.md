@@ -10,7 +10,7 @@
 
 > 接下来说一下关于代理配置的机制
 
-![Alt text](image.png)
+![Alt text](img/image.png)
 
 - 代理模板
     如果你没有设置代理模板，可以通过常规的方式进行配置代理。如：http、socks5等
@@ -24,14 +24,14 @@
 > 如果你的策略中存在<span v-pre> {{state}} </span>,在选择完国家/地区时，接下来就会显示省/州。如下图：
 
 
-![Alt text](image-1.png)
+![Alt text](img/image-1.png)
 
 
 ::: warning
 请注意：国家/地区、省/州、城市等选择框，不需要完全依赖下拉框中的数据，你完全可以自定义任何内容。如下图所示：
 :::
 
-![Alt text](image-2.png)
+![Alt text](img/image-2.png)
 
 
 当你输入结束，直接按下回车键即可

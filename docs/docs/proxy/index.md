@@ -11,7 +11,7 @@
 一般用于需要保持固定ip的应用场景中，当需要更ip时需要修改特定的会话字符串
 
 ## 创建模板
-![Alt text](image.png)
+![Alt text](img/image.png)
 - 代理商
 
     选择自建代理，即可配置你所使用代理商的相关信息
@@ -53,7 +53,7 @@
 
 > 策略是整体代理模板的核心，如下图：
 
-![Alt text](image-2.png)
+![Alt text](img/image-2.png)
 
 > 你可以添加多个不同的策略
 
@@ -77,7 +77,7 @@
     [account]-zone-custom-region-kr-session-b5b36885cad-sessTime-20
 
     其中[account] 指的是用户名，我们将这一串删除，在规则内我们只需要点击
-    ![Alt text](image-3.png)
+    ![Alt text](img/image-3.png)
     让它替换成软件的规则。
 
     其中kr指定的是国家的缩写，同样的，将kr删除，点击页面中蓝色部分的国家。
