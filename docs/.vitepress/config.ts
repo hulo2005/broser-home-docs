@@ -32,7 +32,9 @@ export default defineConfig({
     outlineTitle: '页面导航',
     nav: [
       { text: '文档', link: '/docs' },
-      { text: '下载', link: '/docs/install'}
+      { text: '下载', link: '/docs/install'},
+      {text: '关于', link: '/docs/about'}
+
 
       // {
       //   text: 'Dropdown Menu',
@@ -46,8 +48,8 @@ export default defineConfig({
       // ...
     ],
     footer: {
-      message: '合肥绍禹计算机科技有限公司',
-      copyright: 'Copyright © 2022-2025 备案号：皖ICP备2024059545号',
+      message: '合肥绍禹计算机科技有限公司 联系电话:18930261249',
+      copyright: 'Copyright © 2022-2025 备案号：皖ICP备2024059545号 地址：安徽省合肥市双凤开发区光明金座618室',
     },
 
     sidebar: [
@@ -64,7 +66,8 @@ export default defineConfig({
         items:[
           {text:'代理模板', link:'/docs/proxy'},
           {text:'创建PC端浏览器', link: '/docs/browser/pc'},
-          {text:'创建安卓浏览器', link: '/docs/browser/android'}
+          {text:'创建安卓浏览器', link: '/docs/browser/android'},
+          {text:'团队管理', link: '/docs/teammanage'}
         ]
        }
     ],
