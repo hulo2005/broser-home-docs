@@ -1,6 +1,15 @@
 import { defineConfig } from 'vitepress';
 // refer https://vitepress.dev/reference/site-config for details
 export default defineConfig({
+  markdown: {
+    anchor: {
+      slugify(str) {
+        return encodeURIComponent(
+          String(str).trim().toLowerCase().replace(/\s+/g, '-')
+        )
+      }
+    }
+  },
   transformHead(context) {
     return [
       [
@@ -33,7 +42,7 @@ export default defineConfig({
     nav: [
       { text: '文档', link: '/docs' },
       { text: '下载', link: '/docs/install'},
-      {text: '关于', link: '/docs/about'}
+      {text: '联系我们', link: '/docs/about'}
 
 
       // {
@@ -69,7 +78,15 @@ export default defineConfig({
           {text:'创建安卓浏览器', link: '/docs/browser/android'},
           {text:'团队管理', link: '/docs/teammanage'}
         ]
+       },
+       {
+        text:'常见问题',
+        items:[
+          {text:'账户相关', link:'/docs/frq/user'},
+          {text:'浏览器相关', link:'/docs/frq/browser'},
+        ]
        }
     ],
   },
+  
 });

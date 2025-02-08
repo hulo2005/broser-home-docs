@@ -1,11 +1,9 @@
 ---
-title: 使用指南
+title: 团队管理
 ---
 
 <script setup>
-import TeamManage from '../components/TeamManage.vue'
+import TeamManage from '../components/docManage.vue'
 </script>
-
-# 使用指南
 
 <TeamManage docId="1" />
