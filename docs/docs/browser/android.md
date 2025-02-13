@@ -1,4 +1,7 @@
-::: warning 提示
-使用安卓端浏览器，需提前下载并安装支持的模拟器，当然也可以真机测试。
-:::
+<script setup>
+import { defineAsyncComponent } from 'vue';
 
+const TeamManage = defineAsyncComponent(() => import('../../components/docManage.vue'));
+</script>
+
+<TeamManage docId="7" />

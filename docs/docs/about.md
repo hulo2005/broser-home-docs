@@ -1,11 +1,7 @@
-钉钉：18930261249
+<script setup>
+import { defineAsyncComponent } from 'vue';
 
-公司地址：安徽省合肥市双凤开发区光明金座618室
+const TeamManage = defineAsyncComponent(() => import('../components/docManage.vue'));
+</script>
 
-联系电话：18930261249
-
-邮箱(Email)：admin@surveybrowser.com
-
-> 添加企业微信
-
-![Alt text](image.png)
+<TeamManage docId="9" />
