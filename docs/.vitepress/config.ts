@@ -78,6 +78,7 @@ export default defineConfig({
           {text:'创建PC端浏览器', link: '/docs/browser/pc'},
           {text:'创建安卓浏览器', link: '/docs/browser/android'},
           {text:'团队管理', link: '/docs/teammanage'},
+          {text:'批量启动API', link: '/docs/batchstartup'},
           {text:'辅助功能', link: '/docs/other'}
         ]
        },
